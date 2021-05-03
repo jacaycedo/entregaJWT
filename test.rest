@@ -2,6 +2,14 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "username":"admin",
-    "password":"password"
+    "username":"pedropic",
+    "password":"qwert1234",
+    "role":"manager"
 }  
+
+###
+
+GET http://localhost:3000/mantain
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBlZHJvcGljIiwicm9sZSI6Im1hbmFnZXIiLCJpYXQiOjE2MTk5ODk4NTMsImV4cCI6MTYyMDA3NjI1M30.4S8tW8-nfcz37QQFjwM5Fed28RsG7vKrUgN5fpOTCLc
+
+
